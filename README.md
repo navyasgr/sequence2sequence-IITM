@@ -108,13 +108,13 @@ V(m + 1) + 8h(m + h + 1) + hV
 ---
 
 ##  Implementation Features  
-✅ Character-level embeddings  
-✅ Encoder–Decoder RNN (configurable architecture)  
-✅ Support for RNN, LSTM, GRU  
-✅ Teacher Forcing for stability  
-✅ Gradient clipping + LR scheduling  
-✅ Loss and accuracy visualization  
-✅ Model checkpointing  
+ Character-level embeddings  
+ Encoder–Decoder RNN (configurable architecture)  
+ Support for RNN, LSTM, GRU  
+ Teacher Forcing for stability  
+ Gradient clipping + LR scheduling  
+ Loss and accuracy visualization  
+ Model checkpointing  
 
 ---
 
@@ -185,13 +185,13 @@ RNN	Lowest	Fastest	Good
 GRU	Medium	Fast	Better
 LSTM	Highest	Slowest	Best
 
-Effect of Hidden Size
+## Effect of Hidden Size
 Hidden Size	Parameters	Memory	Performance
 128	~400K	Low	Good
 256	~1.6M	Medium	Better
 512	~6.4M	High	Best
 
-Troubleshooting
+## Troubleshooting
 CUDA Out of Memory:
 
 CONFIG['batch_size'] = 32
@@ -201,9 +201,6 @@ Model Not Learning:
 CONFIG['teacher_forcing_ratio'] = 0.7
 CONFIG['learning_rate'] = 0.0001
 Overfitting:
-
-python
-Copy code
 CONFIG['dropout'] = 0.5
 ## References
 Sequence to Sequence Learning with Neural Networks – Sutskever et al., 2014
@@ -214,12 +211,12 @@ Aksharantar Dataset – AI4Bharat
 
 Understanding LSTM Networks – Christopher Olah
 
- Author
+ ### Author
 Navya
 GitHub: @navyasgr
 Repository: Seq2Seq-Aksharantar-IITM-navya
 
- License
+### License
 This project is created for educational purposes as part of the IIT Madras Deep Learning course assignment.
 
  Acknowledgments
@@ -229,11 +226,11 @@ AI4Bharat – Aksharantar dataset
 
 PyTorch Team – Excellent framework
 
- Contact & Support
+ ### Contact & Support
 For questions or issues:
 
 Open an issue on GitHub
 
 Contact via IIT Madras course portal
 
-🕒 Last Updated: October 2025
+ Last Updated: October 2025
