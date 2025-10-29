@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+saved_models/
+
+# Data files
+data/
+*.csv
+*.tsv
+*.txt
+!requirements.txt
+!README.txt
+
+# Logs
+*.log
+logs/
+tensorboard/
+results/
+outputs/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+
+# Model outputs
+loss_plot.png
+*.png
+!architecture.png
